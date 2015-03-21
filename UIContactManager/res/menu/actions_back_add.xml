@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Layout Created By : Pavan Trinath -->
+<!--        Net ID 		: BXV131230 --> 
+<!--        Course 		: CS6301 -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/actionBarBackIcon"
+         android:title="@string/back" android:showAsAction="always"></item>
+    <item android:id="@+id/actionBarAddIcon"
+        android:icon="@drawable/addpng" android:title="@string/add" android:showAsAction="always"></item>
+  <item android:id="@+id/actionBarEditIcon"
+        android:icon="@drawable/editpng" android:title="@string/edit" android:showAsAction="always"></item>
+  <item android:id="@+id/actionBarDeleteIcon"
+        android:icon="@drawable/deletepng" android:title="@string/delete" android:showAsAction="always"></item>
+</menu>
